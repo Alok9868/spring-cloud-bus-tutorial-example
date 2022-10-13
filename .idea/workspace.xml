@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c3033f2d-dae1-4898-93b9-e6b9565cc53e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/eurekaserver/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaserver/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaserver/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaserver/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaserver/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaserver/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaserver/src/main/java/com/example/eurekaserver/EurekaserverApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaserver/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaserver/src/test/java/com/example/eurekaserver/EurekaserverApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloudconfigclient" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloudconfigclient2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloudconfigclient2/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloudconfigclient2/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloudconfigclient2/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloudconfigclient2/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloudconfigclient2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloudconfigclient2/src/main/java/com/example/springcloudconfigclient/SpringcloudconfigclientApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloudconfigclient2/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloudconfigclient2/src/test/java/com/example/springcloudconfigclient/SpringcloudconfigclientApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloudconfigsever/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloudconfigsever/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloudconfigsever/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloudconfigsever/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloudconfigsever/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloudconfigsever/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloudconfigsever/src/main/java/com/example/springcloudconfigsever/SpringcloudconfigseverApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloudconfigsever/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloudconfigsever/src/test/java/com/example/springcloudconfigsever/SpringcloudconfigseverApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/springcloudconfigclient" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2EntozaUXmUOXMZAzIPbuE9YBVA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/adda247/Downloads/springcloudbustutorial&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.SpringcloudconfigclientApplication">
+    <configuration name="EurekaServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javainuse.EurekaServerApplication" />
+      <module name="eureka-server (1)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javainuse.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaserverApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.eurekaserver.EurekaserverApplication" />
+      <module name="eurekaserver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.eurekaserver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringcloudconfigclientApplication (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.springcloudconfigclient.SpringcloudconfigclientApplication" />
+      <module name="springcloudconfigclient (1)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.springcloudconfigclient.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringcloudconfigclientApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.springcloudconfigclient.SpringcloudconfigclientApplication" />
+      <module name="springcloudconfigclient" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.springcloudconfigclient.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringcloudconfigseverApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.springcloudconfigsever.SpringcloudconfigseverApplication" />
+      <module name="springcloudconfigsever" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.springcloudconfigsever.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SpringcloudconfigclientApplication" />
+        <item itemvalue="Application.SpringcloudconfigclientApplication (1)" />
+        <item itemvalue="Application.SpringcloudconfigseverApplication" />
+        <item itemvalue="Application.EurekaserverApplication" />
+        <item itemvalue="Application.EurekaServerApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c3033f2d-dae1-4898-93b9-e6b9565cc53e" name="Changes" comment="" />
+      <created>1663243354231</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1663243354231</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
