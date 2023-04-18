@@ -1,6 +1,7 @@
 package com.example.springcloudconfigclient;
 
 import com.example.springcloudconfigclient.auth.Authproperties;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -23,6 +24,8 @@ public class SpringcloudconfigclientApplication {
 
 
     private Authproperties authproperties;
+    @Value("${spring.name}")
+    private String name;
 
     public SpringcloudconfigclientApplication(Authproperties authproperties) {
         this.authproperties = authproperties;
@@ -36,7 +39,9 @@ public class SpringcloudconfigclientApplication {
     public Map<String, String> getUsername() {
 
         HashMap<String, String> ans = new HashMap<>();
-        ans.put("name", authproperties.getName());
+        ans.put("name",authproperties.getName());
+        ans.put("pass",authproperties.getPass());
+        ans.put("secretkey",authproperties.getSecretkey());
         return ans;
     }
 }
