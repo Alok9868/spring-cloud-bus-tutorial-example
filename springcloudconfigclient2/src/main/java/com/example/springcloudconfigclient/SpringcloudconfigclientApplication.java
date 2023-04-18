@@ -1,36 +1,42 @@
 package com.example.springcloudconfigclient;
 
-import org.springframework.beans.factory.annotation.Value;
+import com.example.springcloudconfigclient.auth.Authproperties;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
-import org.springframework.cloud.context.config.annotation.RefreshScope;
-import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
+import java.util.HashMap;
+import java.util.Map;
+
 @SpringBootApplication
 @Configuration
 @EnableWebMvc
 @EnableAutoConfiguration
+@EnableConfigurationProperties(Authproperties.class)
 @RestController
-@RefreshScope
-@EnableEurekaClient
 public class SpringcloudconfigclientApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(SpringcloudconfigclientApplication.class, args);
-	}
 
-	@Value("${user.secretkey}")
-	private String username;
+    private Authproperties authproperties;
 
-	@GetMapping("/get")
-	public String getUsername()
-	{
-		return username;
-	}
+    public SpringcloudconfigclientApplication(Authproperties authproperties) {
+        this.authproperties = authproperties;
+    }
+
+    public static void main(String[] args) {
+        SpringApplication.run(SpringcloudconfigclientApplication.class, args);
+    }
+
+    @GetMapping("/get")
+    public Map<String, String> getUsername() {
+
+        HashMap<String, String> ans = new HashMap<>();
+        ans.put("name", authproperties.getName());
+        return ans;
+    }
 }
